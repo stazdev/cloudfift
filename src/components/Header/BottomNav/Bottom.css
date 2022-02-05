@@ -1,0 +1,15 @@
+.bottom-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+}
+
+.bottom-list__item {
+  list-style: none;
+  padding: 1.7rem;
+  margin: 0 1rem;
+}

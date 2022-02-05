@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 18.5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.navigation,
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list__item {
+  list-style: none;
+  margin-right: 4rem;
+}
+
+.list__item a {
+  text-decoration: none;
+  color: #242120;
+}
