@@ -1,17 +1,24 @@
 .header {
+  height: 9rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem 18.5rem;
   font-size: 1.3rem;
   text-transform: uppercase;
 }
 
-.navigation,
+.logo {
+  margin-left: 18rem;
+}
+nav,
 .list {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+nav {
+  margin-right: 18rem;
 }
 
 .list__item {

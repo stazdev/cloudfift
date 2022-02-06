@@ -11,7 +11,7 @@ const Header = () => {
     <>
       <header className="header">
         <img src={logo} alt="vasiti logo" className="logo" />
-        <nav className="navigation">
+        <nav>
           <ul className="list">
             <li className="list__item">
               <Link to="#">About Us</Link>
@@ -26,7 +26,9 @@ const Header = () => {
               <Link to="#">Log In</Link>
             </li>
           </ul>
-          <Button to="#">sign up</Button>
+          <Button to="#" className="nav-btn">
+            sign up
+          </Button>
         </nav>
       </header>
       <Bottom />
