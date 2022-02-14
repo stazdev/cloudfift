@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 2.8rem 11.1rem 0 17.4rem; */
+}
+
+.hero__text {
+  padding-left: 12.7rem;
+  max-width: 58.6rem;
+  width: 100%;
+}
+
+.hero__text h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6rem;
+}
+.hero__text p {
+  max-width: 48.9rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+  letter-spacing: 2%;
+}
+
+.hero__img img {
+  max-width: 71.1rem;
+  padding-top: 3rem;
+  padding-right: 6.7rem;
+  width: 100%;
+  display: block;
+}
