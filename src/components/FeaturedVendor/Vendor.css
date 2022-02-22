@@ -1,0 +1,37 @@
+.vendor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff8f5;
+  color: #242120;
+  overflow: hidden;
+  padding: 6.4rem 8.9rem 0rem 12.7rem;
+}
+
+.vendor__image {
+  max-width: 62.2rem;
+  max-height: 53.8rem;
+  width: 100%;
+  background: url(../../images/Ellipse\ 7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vendor__text {
+  max-width: 68.6rem;
+  width: 100%;
+  margin-right: 14.3rem;
+}
+.vendor__text h2 {
+  line-height: 3.87rem;
+  font-size: 3.2rem;
+  letter-spacing: 1%;
+  margin-bottom: 0.8rem;
+}
+
+.vendor__text p {
+  max-width: 41.7rem;
+  line-height: 2.7rem;
+  font-size: 1.8rem;
+  margin-top: 3.2rem;
+}

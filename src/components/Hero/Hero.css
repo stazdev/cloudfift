@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 2.8rem 11.1rem 0 17.4rem; */
 }
 
 .hero__text {
-  padding-left: 12.7rem;
+  margin-left: 12.7rem;
+  padding-left: 5rem;
   max-width: 58.6rem;
   width: 100%;
 }
@@ -26,8 +26,9 @@
 
 .hero__img img {
   max-width: 71.1rem;
+  max-height: 56.8rem;
   padding-top: 3rem;
-  padding-right: 6.7rem;
   width: 100%;
+  padding-right: 11rem;
   display: block;
 }
