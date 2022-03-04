@@ -1,6 +1,6 @@
 import React from "react";
 
-import users from "../../users";
+import { users } from "../../users";
 import Tag from "../UserTag/Tag";
 import "./User.css";
 
@@ -13,7 +13,8 @@ const User = () => {
           <div className="username">{user.name}</div>
           <div className="location">
             <span>in {user.city}</span>
-            <Tag customer-tag>{user.user_type}</Tag>
+            {/* {user.user__type === 'customer' ? <Tag customer>{user.user_type}</Tag>} */}
+            <Tag customer>{user.user_type}</Tag>
           </div>
           <div className="comment">{user.comment}</div>
         </div>

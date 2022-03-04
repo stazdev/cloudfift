@@ -9,7 +9,7 @@ const Vendor = () => {
     <div className="vendor">
       <div className="vendor__text">
         <h2>Josiah's Experience</h2>
-        <Tag>vendor</Tag>
+        <Tag fvendor>vendor</Tag>
         <p>
           I had the best experience shopping with vasiti. Usability of the
           website was great, very good customer service, an all round great

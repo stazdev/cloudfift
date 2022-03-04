@@ -5,6 +5,24 @@
   max-width: 9.5rem;
   border-radius: 4px;
   border: 1px solid rgba(225, 225, 225, 0.4);
-  background-color: #222222;
   padding: 7px 9px;
+}
+
+.customer__tag {
+  color: #0d019a;
+  border: none;
+  background-color: #eef8ff;
+}
+
+.vendor__tag {
+  max-width: 7.5rem;
+  color: #049a01;
+  border: none;
+  background-color: #f0ffee;
+}
+
+.featured-vendor__tag {
+  max-width: 7.5rem;
+  color: #ff5c00;
+  border: 1px solid rgba(255, 92, 0, 0.4);
 }

@@ -4,6 +4,8 @@ import Vendor from "./components/FeaturedVendor/Vendor";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import User from "./components/UserComment/User";
+import VendorComment from "./components/VendorComment/VendorComment";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Customer />
       <User />
       <Vendor />
+      <VendorComment />
+      <Footer />
     </div>
   );
 }

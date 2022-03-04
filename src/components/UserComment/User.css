@@ -1,7 +1,3 @@
-.user_tag {
-  color: red;
-}
-
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 34rem);
