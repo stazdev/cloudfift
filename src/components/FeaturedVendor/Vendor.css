@@ -1,16 +1,18 @@
 .vendor {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 5rem;
   background-color: #fff8f5;
   color: #242120;
   overflow: hidden;
-  padding: 6.4rem 8.9rem 0rem 12.7rem;
+  padding: 6.4rem 12.7rem 0rem 12.7rem;
+  position: relative;
 }
 
 .vendor__image {
-  max-width: 62.2rem;
-  max-height: 53.8rem;
+  max-width: 51rem;
+  max-height: 40rem;
   width: 100%;
   background: url(../../images/Ellipse\ 7.png);
   background-size: cover;
@@ -34,4 +36,24 @@
   line-height: 2.7rem;
   font-size: 1.8rem;
   margin-top: 3.2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .vendor__text {
+    margin-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .vendor {
+    padding: 4rem 5rem 0rem 5rem;
+  }
+
+  .vendor__text {
+    margin: 0;
+  }
+
+  .vendor__text p {
+    max-width: 68rem;
+  }
 }

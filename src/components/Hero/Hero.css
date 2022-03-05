@@ -1,14 +1,13 @@
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  margin: 0rem 5rem;
+  margin-top: 3rem;
 }
 
 .hero__text {
-  margin-left: 12.7rem;
-  padding-left: 5rem;
-  max-width: 58.6rem;
-  width: 100%;
+  width: 53rem;
 }
 
 .hero__text h1 {
@@ -25,10 +24,17 @@
 }
 
 .hero__img img {
-  max-width: 71.1rem;
+  max-width: 70rem;
   max-height: 56.8rem;
   padding-top: 3rem;
   width: 100%;
-  padding-right: 11rem;
   display: block;
+}
+
+@media screen and (max-width: 485px) {
+  .hero {
+    margin: 0 5rem;
+    margin-top: 3rem;
+    grid-template-columns: 1fr;
+  }
 }

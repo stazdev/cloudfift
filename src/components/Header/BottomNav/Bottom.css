@@ -13,3 +13,9 @@
 .bottom-list__item {
   margin: 0 2rem;
 }
+
+@media screen and (max-width: 475px) {
+  .bottom-list {
+    display: none;
+  }
+}

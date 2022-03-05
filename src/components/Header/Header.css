@@ -31,3 +31,12 @@ nav {
   text-decoration: none;
   color: #242120;
 }
+
+@media screen and (max-width: 570px) {
+  .logo {
+    margin-left: 10rem;
+  }
+  nav {
+    display: none;
+  }
+}

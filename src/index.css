@@ -17,3 +17,19 @@ html {
 li {
   list-style: none;
 }
+
+@media screen and (max-width: 1150px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 950px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media screen and (max-width: 750px) {
+  html {
+    font-size: 32%;
+  }
+}

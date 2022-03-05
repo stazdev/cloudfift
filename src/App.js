@@ -1,4 +1,3 @@
-import "./App.css";
 import Customer from "./components/FeaturedCustomer/Customer";
 import Vendor from "./components/FeaturedVendor/Vendor";
 import Header from "./components/Header/Header";
@@ -6,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import User from "./components/UserComment/User";
 import VendorComment from "./components/VendorComment/VendorComment";
 import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function App() {
   return (

@@ -1,7 +1,8 @@
 .customer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 5rem;
   background-color: #222222;
   color: #ffffff;
   overflow: hidden;
@@ -10,9 +11,9 @@
 
 .customer__image {
   max-width: 61.7rem;
-  max-height: 57.2rem;
+  max-height: 58.2rem;
   width: 100%;
-  margin-bottom: -5.9rem;
+  margin-bottom: -9rem;
 }
 
 .customer__text {
@@ -32,4 +33,43 @@
   line-height: 2.7rem;
   font-size: 1.8rem;
   margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+@media screen and (max-width: 750px) {
+  .customer__text {
+    margin-left: 5rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .customer {
+    padding: 4rem 5rem 0rem 5rem;
+  }
+  .customer__image {
+    margin-bottom: -6rem;
+  }
+  .customer__text {
+    margin: 0;
+  }
+
+  .customer__text p {
+    max-width: 68rem;
+  }
+}
+@media screen and (max-width: 485px) {
+  .customer {
+    padding: 4rem 5rem 0rem 5rem;
+    grid-template-columns: 1fr;
+  }
+  .customer__image {
+    margin-bottom: -6rem;
+    grid-row-start: 2;
+  }
+  .customer__text {
+    margin: 0;
+  }
+
+  .customer__text p {
+    max-width: 68rem;
+  }
 }

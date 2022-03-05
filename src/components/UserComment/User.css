@@ -43,3 +43,9 @@ img {
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 750px) {
+  .cards {
+    grid-template-columns: repeat(2, 34rem);
+  }
+}
