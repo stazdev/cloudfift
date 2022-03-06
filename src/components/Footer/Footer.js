@@ -18,7 +18,9 @@ const Footer = () => {
           </p>
           <div className="subscribe">
             <input type="email" placeholder="enter your email address" />
-            <Button to="#">subscribe</Button>
+            <Button to="#" light>
+              subscribe
+            </Button>
           </div>
         </div>
       </div>

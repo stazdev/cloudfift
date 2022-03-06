@@ -3,13 +3,12 @@
   grid-template-columns: repeat(3, 34rem);
   gap: 5.6rem;
   place-content: center;
-  padding: 7.5rem 0;
+  padding: 7.5rem 6rem;
 }
 
-.card {
-  max-width: 34rem;
+/* .card {
   padding: 2rem;
-}
+} */
 .username {
   font-size: 2.4rem;
   font-weight: 600;
@@ -46,6 +45,13 @@ img {
 
 @media screen and (max-width: 750px) {
   .cards {
-    grid-template-columns: repeat(2, 34rem);
+    grid-template-columns: repeat(2, minmax(34rem, 50rem));
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .cards {
+    grid-template-columns: minmax(34rem, 65rem);
+    place-items: center;
   }
 }

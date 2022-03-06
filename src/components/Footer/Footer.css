@@ -3,15 +3,15 @@
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  padding: 0 5rem;
 }
 
 .footer__top {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
 .footer__top img {
-  margin-right: 16.5rem;
   margin-top: -5rem;
   max-width: 37.2rem;
   max-height: 37.2rem;
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 368px;
+  max-width: 46rem;
   background-color: rgba(225, 225, 225, 0.2);
   border-radius: 0.6rem;
   margin-top: 3.2rem;
@@ -46,13 +46,19 @@
 }
 
 .subscribe input {
+  width: 100%;
   color: #fff;
-
   padding: 1rem 1rem;
-  font-size: 1.4rem;
+  font-size: 14px;
   background-color: transparent;
   border: none;
 }
 .subscribe input:focus {
   outline: none;
+}
+
+@media screen and (max-width: 485px) {
+  .footer__top {
+    grid-template-columns: 1fr;
+  }
 }

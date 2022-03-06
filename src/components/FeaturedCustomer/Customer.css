@@ -19,7 +19,8 @@
 .customer__text {
   max-width: 68.6rem;
   width: 100%;
-  margin-left: 14.3rem;
+  padding: 2rem;
+  /* margin-left: 14.3rem; */
 }
 .customer__text h2 {
   line-height: 3.87rem;
@@ -47,9 +48,6 @@
   }
   .customer__image {
     margin-bottom: -6rem;
-  }
-  .customer__text {
-    margin: 0;
   }
 
   .customer__text p {

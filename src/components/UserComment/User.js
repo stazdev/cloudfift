@@ -13,8 +13,11 @@ const User = () => {
           <div className="username">{user.name}</div>
           <div className="location">
             <span>in {user.city}</span>
-            {/* {user.user__type === 'customer' ? <Tag customer>{user.user_type}</Tag>} */}
-            <Tag customer>{user.user_type}</Tag>
+            {user.user_type === "customer" && (
+              <Tag customer>{user.user_type}</Tag>
+            )}
+            {user.user_type === "vendor" && <Tag vendor>{user.user_type}</Tag>}
+            {/* <Tag customer>{user.user_type}</Tag> */}
           </div>
           <div className="comment">{user.comment}</div>
         </div>

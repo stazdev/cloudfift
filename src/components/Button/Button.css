@@ -1,8 +1,16 @@
 .button {
   color: #fff;
+  width: max-content;
   text-decoration: none;
+  text-transform: uppercase;
   background-color: #ff5c00;
   box-shadow: 1px 4px 8px rgba(239, 88, 3, 0.2);
   border-radius: 4px;
   padding: 8.5px 16px;
+}
+
+.button__light {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
 }

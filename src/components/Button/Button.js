@@ -13,7 +13,10 @@ const Button = (props) => {
   }
   if (props.to) {
     return (
-      <Link to={props.to} className="button">
+      <Link
+        to={props.to}
+        className={`button ${props.light && "button__light"}`}
+      >
         {props.children}
       </Link>
     );
